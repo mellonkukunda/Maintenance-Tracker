@@ -4,11 +4,33 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <form id="user_form" method="post"action="home.html">
 <script src="JS/validation.js"></script>
-<link rel="stylesheet" type="text/css" href="CSS/approve.css">
-</head>
-<body>
+<link rel="stylesheet" type="text/css" href="CSS/mystyle.css">
+</head><ul>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Home</a>
+    <div class="dropdown-content">
+    </div>
+  </li>
+
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">User</a>
+    <div class="dropdown-content">
+      <a href="request.html">Make a request</a>
+      <a href="view userrequest.html">View your requests</a>
+    </div>
+  </li>
+
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Admin</a>
+    <div class="dropdown-content">
+    <a href="Approve request.html">View all request</a>
+    </div>
+  </li>
+</ul>
+<body class="admin-body">
 
 <h2>Current Requests</h2>
+
 
 <input type="text" id="myInput" onkeyup="myFunction()" 
 placeholder="Search for names.." title="Type in a name">
@@ -129,11 +151,10 @@ placeholder="Search for names.." title="Type in a name">
 	<input  type="radio" name="radio" value="Approve" /> Decline
 	</td>
   </tr>
-</table>
+</table><br>
 <input class="signup" type="submit" name="Submit" value="Back"  color="blue"/>
-<div class="footer">
- <p>Designed by Kukunda Mellon</p>
-</div>
+
 </div>
 </body>
 </html>
+

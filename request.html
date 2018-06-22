@@ -6,12 +6,27 @@
 </head>
 <body>
 <ul>
-<ul>
   <li class="dropdown">
-    <a href="javascript:void(0)" class="dropbtn">MAINTENANCE TRACKER</a>
+    <a href="javascript:void(0)" class="dropbtn">Home</a>
     <div class="dropdown-content">
     </div>
   </li>
+
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">User</a>
+    <div class="dropdown-content">
+      <a href="request.html">Make a request</a>
+      <a href="view userrequest.html">View your requests</a>
+    </div>
+  </li>
+
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Admin</a>
+    <div class="dropdown-content">
+    <a href="Approve request.html">View all request</a>
+    </div>
+  </li>
+</ul>
 
 <div class = "registerbordered">
 <form id="user_form" method="post"action="home.html" align="center">
@@ -33,7 +48,7 @@
 <label class="labelled">Date/Time:<br> 
 <input class="registertexted" type="datetime" name="password" value="" placeholder="DD/MM/YYYY:TT:MM"  /><br> <br>
 <label class="labelled">Describe your request in detail<br> 
-<input class="requesttextarea" type="textarea" name="password" value=""  /><br> <br>
+<input class="requesttextarea" type="textarea" name="password" value="" row="10" column="20" /><br> <br>
 <input class="registerbutton" type="submit" name="Submit" value="Save" />
 <input class="registerbutton" type="submit" name="submit" value="Cancel" /><br> <br>
 </form>

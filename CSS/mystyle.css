@@ -3,7 +3,7 @@
         body {
           margin: 0;
           font-family: Arial, Helvetica, sans-serif;
-		  background-color: silver;
+		  background-color: white;
         }
         
         .topnav {
@@ -99,7 +99,7 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-    background-color: PURPLE;
+    background-color: gray;
 }
 
 li.dropdown {
@@ -156,18 +156,18 @@ li.dropdown {
     background-color: blue;
 }
 .signup {
-    background-color: purple;
+    background-color: silver;
     color: white;
     font-size: 16px;
     border: none;
     cursor: pointer;
     border-radius: 50px;
     text-align: center;
-	width: 100px;
-    height: 70px;
+	width: 150px;
+    height: 30px;
 }
 .signup:hover {
-    background-color: blue;
+    background-color: grey;
 }
 .footer {
    position: fixed;
@@ -177,4 +177,34 @@ li.dropdown {
    background-color: purple;
    color: white;
    text-align: center;
+}
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 5px solid #ddd;
+  font-size: 15px;
+  background-color:white;
+
+  
+}
+#myTable, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding:5px;
+}
+#myTable  th {
+    background-color: white;
+    color: Black;
+}
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #f1f1f1;
+}
+.admin-body
+{ 
+background-color: white;
+font-family: times new roman;
 }
