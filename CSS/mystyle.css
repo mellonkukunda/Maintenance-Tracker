@@ -2,9 +2,11 @@
 
         body {
           margin: 0;
-          font-family: Arial, Helvetica, sans-serif;
-		  background-color: white;
+          font-family: times new roman;
+		  background-color: #00f8f8;
+		  font-size: 17px;
         }
+        
         
         .topnav {
           overflow: hidden;
@@ -99,7 +101,7 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-    background-color: gray;
+    background-color: tan;
 }
 
 li.dropdown {
